@@ -8,7 +8,7 @@ $settings['environment'] = 'DEVELOPMENT';
 
 $settings['debug'] = false;
 
-$settings['site_name'] = 'My MVC from scratch';
+$settings['site_name'] = 'MiniMVC';
 
 $settings['base_url'] = 'http://www.mypage.com/';
 
