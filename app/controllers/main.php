@@ -9,5 +9,6 @@ class Main extends Core_Controller{
 	
 	function index(){
 		$this->debug('main index ');
+    $this->view->load('main');
 	}
 }
