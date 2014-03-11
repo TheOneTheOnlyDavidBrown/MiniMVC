@@ -2,7 +2,7 @@
 
 $settings = array();
 
-$settings['default_controller'] = 'calculator';
+$settings['default_controller'] = 'main';
 
 $settings['environment'] = 'DEVELOPMENT';
 
