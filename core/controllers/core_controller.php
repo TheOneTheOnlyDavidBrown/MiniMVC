@@ -20,7 +20,7 @@ class Core_Controller{
 	
 	function debug($input){
 		if($this->settings['debug']){
-			echo $input;
+			echo $input.'<br/>';
 		}
 	}
 	
