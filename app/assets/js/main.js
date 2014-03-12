@@ -7,7 +7,6 @@ var base = $.inherit(/** @lends A.prototype */{
 			$.extend(cs,vars);
 			cs.ready();
 			cs.init();
-			cs.math();
 		});
 	},
 	
