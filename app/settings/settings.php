@@ -12,7 +12,7 @@ $settings['site_name'] = 'MiniMVC';
 
 $settings['base_url'] = 'http://www.mypage.com/';
 
-$settings['autoload_extensions'] = array('database');
+$settings['autoload_extensions'] = array();
 
 $settings['autoload_libraries'] = array('cache', 'fURL', 'fRequest','fSession','fCRUD');
 
