@@ -1,6 +1,6 @@
 <?php
 
-class Calculator extends Core_Controller{
+class CalculatorSample extends Core_Controller{
 	
 	function __construct(){
 		parent::__construct();
@@ -8,6 +8,7 @@ class Calculator extends Core_Controller{
 	}
 	
 	function index(){
+		
 		global $cache;
 		$cache->start();
 		$this->data['page_title'] = 'Calculator';
