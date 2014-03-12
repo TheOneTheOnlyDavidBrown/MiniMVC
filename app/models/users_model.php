@@ -8,8 +8,8 @@ class Users_Model extends Core_Model{
 	function getUsers(){
 		global $settings;
 		
-		//where the database will be called once the database driver is complete
-		//until then, this is dummy data
+		//where the database will be called via database driver
+		//since i don't know what your database is named this is dummy data
 		$users = array(
 			array(
 				'name'=>'tommy',
