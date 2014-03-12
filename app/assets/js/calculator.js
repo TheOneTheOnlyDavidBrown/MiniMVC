@@ -29,7 +29,7 @@ base.calculator = $.inherit(base,/** @lends B.prototype */{
 				
 				//$sum.text(parseInt($numone.text(),null)+parseInt($numtwo.text(),null));
 				$.ajax({
-					url: "?c=calculator&m=add",
+					url: "?c=calculatorsample&m=add",
 					data: {
 						a:$numone.text(),
 						b:$numtwo.text()
@@ -51,10 +51,7 @@ base.calculator = $.inherit(base,/** @lends B.prototype */{
 						console.log(e.statusText);
 					}
 				});
-				
-				
 			}
-			
 		});
 	}
 });

@@ -8,7 +8,6 @@
  * @todo Insure SQL injection is the best it can be
  * 
  */
-
 class Database {
 
     private $_query;
@@ -109,6 +108,16 @@ class Database {
         else {
             $this->_query .= "" . $fields . " ";
         }
+        return $this;
+    }
+
+    /**
+     * Selects all from a table
+     * @param string $table table to select all from
+     * @return object $this Chainable object
+     */
+    function selectAllFrom($table) {
+        $this->_query = 'SELECT * FROM ' . $table . ' ';
         return $this;
     }
 
