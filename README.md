@@ -7,6 +7,6 @@ Implements my [PHP Database Driver](https://github.com/davidbrownucf/phpdatabase
 
 It is made to be very flexible in terms of adding new libraries/extensions.
 
-Controllers can be restful to cater to AJAX calls
+Controllers can be RESTful to cater to AJAX calls
 
 Built in JavaScript hierarchy to allow function to inherit from others.
